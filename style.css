@@ -1,0 +1,134 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+.maindiv
+{
+    background-color: rgb(65, 65, 65 , .1);
+    margin: 0 5%;
+}
+/* css for navbar first section*/
+.bar
+{
+    text-align: center;
+    border: 1px solid rgb(114, 114, 114);
+    padding: 20px;
+    background-color: rgb(235, 235, 235);
+}
+.left1 , .left2
+{
+    float: left;
+    margin-right: 50px ;
+}
+.left1{margin-left: 40px; margin-top: 8px;}
+.left2{font-size: 28px;}
+input::placeholder
+{
+    text-align: center;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+}
+.right1 , .right2
+{
+    float: right;
+    margin-left: 20px ;
+    width: 70px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.right1
+{
+    background-color: black;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+    font-size: 16px;
+}
+
+.right2
+{
+    background-color: white;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+a       
+{
+    text-decoration: none;
+    color: blueviolet;
+    font-size: 18px;
+}
+span
+{
+    color: black;
+    font-weight: 800;
+}
+.mid
+{
+    margin: 0 20px;
+}
+#search
+{
+    width: 400px;
+    height: 35px;
+    border-radius: 20px;
+    border: 1px solid rgb(131, 131, 131);
+}
+/*next section*/
+.te_imag
+{
+    margin: 0 5%;
+    padding: 2%;
+    background-image: url(../image/log\ image.jpg);
+    background-repeat: no-repeat;
+}
+.te1
+{
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 400px;
+    padding: 15px;
+    background-color: white;
+}
+.te1_p1
+{
+    font-size: 32px;
+    font-weight: 800;
+    margin-left: 10px;
+}
+.a1
+{
+    margin: 10px;
+    color: rgb(83, 83, 83);
+    font-size: 22px;
+}
+.a1:hover
+{
+    color: #000;
+    font-weight: 1000;
+}
+div.about
+{
+    background-color: rgb(20, 19, 19);
+    height: 300px;
+    padding: 30px;
+    margin-top: 30px;
+    display: flex;
+    flex-flow: row wrap;
+}
+.p1
+{
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+}
+a.a_about
+{
+    color: rgb(226, 222, 222);
+    display: block;
+    font-size: 16px;
+    margin: 15px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}

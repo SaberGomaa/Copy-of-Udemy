@@ -1,0 +1,151 @@
+body
+{
+    margin: 0;
+    padding: 0
+    }
+.bar
+{
+    padding: 15px;
+    text-align: center;
+    border: 2px solid rgb(185, 178, 178);
+    background-color: rgb(255, 255, 255);
+    height: 50px;
+}
+input::placeholder
+{
+    text-align: center;
+}
+img
+{
+    height: 20px;
+    width: 20px;
+    margin-left: 50px ;
+    margin-top: 10px;
+}
+a
+{
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    margin: 0 50px ;
+    text-decoration: none;
+}
+a:link 
+{
+    color: red;
+}  
+a:visited 
+{
+    color: rgb(32, 0, 175);
+}
+a:hover
+{
+    color: hotpink;
+}
+  
+a:active 
+{
+    color: blue;
+}
+.a1
+{
+    margin: 0 50px ;
+    font-size :24px; 
+    color: rgb(0, 0, 0);
+    float: left;
+}
+.search
+{
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 350px;
+    height: 40px;
+}
+.in
+{
+    margin: 10px;
+    float:right;
+}
+.span1
+{
+    color: rgb(0, 0, 0);
+    font-size: 28px;
+    font-weight: 1000;
+    font-family:  Tahoma;
+    text-decoration: overline;
+    display: inline;
+}
+
+.in1
+{
+    margin: 15px;
+    width: 350px;
+    height: 40px;
+    border :2px solid rgb(175, 166, 166);
+}
+div
+{
+    text-align: center;
+    background-color: rgb(226, 226, 226);
+}
+hr
+{
+    width: 200px;
+}
+.sign
+{
+    width: 350px;
+    height: 40px;
+    background-color: rgb(118, 3, 226);
+    padding: 5px;
+    color: #fff;
+    display: inline-block ;
+}
+.inb2
+{
+    color: #fff;
+    background-color: #000;
+    float: right;
+    margin: 8px 20px;
+    height: 25px;
+    border-radius: 10px;
+}
+.inb1
+{
+    background-color: #fff;
+    color: #000;
+    float: right;
+    margin: 8px 20px;
+    border-radius: 10px;
+    border-radius: 10px;
+    height: 25px;
+}
+.footer
+{
+    margin: 20px 0 ;
+    color: #fff;
+    background-color: #000;
+    padding: 20px;
+    font-size: 20px;
+}
+.log
+{
+    padding: 30px;
+}
+.smal
+{
+    font-size: small;
+}
+.login
+{
+    display: inline;
+    margin: 0px;
+}
+.ph
+{
+    margin: 7px 50px;
+    font-size: 20px;
+}
+#a123
+{
+    font-size: 26px;
+}
