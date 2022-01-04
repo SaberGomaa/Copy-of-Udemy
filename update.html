@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Update Information</title>
+  <link rel="stylesheet" href="update info.css">
+  <link rel="stylesheet" href="css/normalize.css">
+
+
+</head>
+
+<body>
+
+
+  <div class="bar">
+    <a href="#" class="left2"><span>U</span>demy</a>
+    <a href="OurStory.html" class="left1">Our Stor</a>
+    <input type="search" placeholder="search for anything" class="mid" id="search">
+    <a href="Update.html" class="mid">Update us</a>
+    <a href="contact.html" class="mid"> Contact us</a>
+    <a class="right1" href="index.html">sign up</a>
+    <a href="login.html" class="right2">log in</a>
+  </div>
+  <div class="up_info">
+    <div class="container">
+      <h2>Update Information</h2>
+      <p>Fill in all the required fields marked by (*).</p>
+    </div>
+  </div>
+
+  <div class="formc">
+    <div class="container">
+      <form id="form" action="/">
+        <div class="input-control">
+          <label for="Request Number">Request Number*</label>
+          <input id="num" name="num" type="text" placeholder="XX123">
+          <div class="error"></div>
+        </div>
+        <div class="input-control">
+          <label for="National ID">National ID/Passport No.*</label>
+          <input id="id" name="id" type="text" placeholder="Last 4 Digits">
+          <div class="error"></div>
+        </div>
+        <div class="control-button">
+          <button type="submit" id="sbutton">Edit Request</button>
+          <div class="success"></div>
+        </div>
+      </form>
+    </div>
+  </div>
+  <script src="update info.js"></script>
+</body>
+
+</html>
